@@ -12,6 +12,15 @@ namespace Algo {
       this->parent = nullptr;
     }
 
+    ~Node() {
+      if (this->left) {
+        delete this->left;
+      }
+      if (this->right) {
+        delete this->right;
+      }
+    }
+
     void setLeft(Node<T>* left) {
       this->left = left;
     }
@@ -23,7 +32,17 @@ namespace Algo {
     void setParent(Node<T>* parent) {
       this->parent = parent;
     }
-    
+
+    void deleteSelfFromParent() {
+      if (this->parent && this->parent->left == this) {
+        this->parent->left = nullptr;
+      }
+      if (this->parent && this->parent->right == this) {
+        this->parent->right = nullptr;
+      }
+      delete this;
+    }
+
     // fields
     T value;
     Node<T>* left;
