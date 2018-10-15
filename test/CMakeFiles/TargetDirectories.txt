@@ -1,0 +1,3 @@
+/home/zayafa/workspace/Algo/test/CMakeFiles/rebuild_cache.dir
+/home/zayafa/workspace/Algo/test/CMakeFiles/algo_test.dir
+/home/zayafa/workspace/Algo/test/CMakeFiles/edit_cache.dir

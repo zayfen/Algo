@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/zayafa/workspace/Algo/test",
+  "command": "/usr/bin/c++   -I/home/zayafa/workspace/Algo/test/../src/search -I/home/zayafa/workspace/Algo/test/../thirdparty  -g   -o CMakeFiles/algo_test.dir/search/test_search.cpp.o -c /home/zayafa/workspace/Algo/test/search/test_search.cpp",
+  "file": "/home/zayafa/workspace/Algo/test/search/test_search.cpp"
+}
+]

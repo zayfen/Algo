@@ -7,9 +7,10 @@
 #include "../_common_models/common.hpp"
 #include "../_utils/tree_travel.hpp"
 
+
 namespace Algo::Heap {
   using Algo::Node;
-  
+
   template<typename T>
   class MaxHeap {
   public:
@@ -24,7 +25,7 @@ namespace Algo::Heap {
       initRoot(&root);
     }
 
-  
+    
     void insert(T* node) {
       if (root == nullptr) {
         initRoot(node);
@@ -41,6 +42,7 @@ namespace Algo::Heap {
         nodeToInsert->right = new Node<T>(*node);
         nodeToInsert->right->setParent(nodeToInsert);
         swimNode = nodeToInsert->right;
+
       }
       swim(swimNode);
       size++;
@@ -88,6 +90,7 @@ namespace Algo::Heap {
 
       // 下沉root节点，重新使堆有序
       sink(root);
+
       return ret;
     }
 

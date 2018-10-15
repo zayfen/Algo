@@ -6,10 +6,14 @@
 
 template<typename T>
 extern int jump_search(const std::vector<T>& vec, const T& x) {
+	if (vec.size() == 0) { 
+		return -1;
+	}
+	
   int stepWidth = std::sqrt(vec.size());
   int prevStepIndex = 0;
   int stepIndex = std::min(stepWidth, int(vec.size())) - 1;
-  
+	
   while (vec.at(stepIndex) < x) {
     prevStepIndex = stepIndex;
     stepIndex = std::min(stepWidth + stepIndex, int(vec.size() - 1));
