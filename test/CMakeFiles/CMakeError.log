@@ -1,0 +1,116 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: 
+Id flags:  
+
+The output was:
+系统找不到指定的文件。
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: 
+Id flags: -c 
+
+The output was:
+系统找不到指定的文件。
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: 
+Id flags: -Aa 
+
+The output was:
+系统找不到指定的文件。
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: cl 
+Build flags: 
+Id flags: -D__CLASSIC_C__ 
+
+The output was:
+系统找不到指定的文件。
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags:  
+
+The output was:
+系统找不到指定的文件。
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: cl 
+Build flags: 
+Id flags: -c 
+
+The output was:
+系统找不到指定的文件。
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/LLVM/msbuild-bin/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+clang-cl.exe: error: unable to execute command: program not executable
+clang-cl.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/LLVM/msbuild-bin/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+clang-cl.exe: error: unable to execute command: program not executable
+clang-cl.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: E:/Algo/test/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_62b03\fast"
+
+Generator: execution of make failed. Make command was: "nmake" "/NOLOGO" "cmTC_62b03\fast"
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: D:/LLVM/msbuild-bin/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+clang-cl.exe: error: unable to execute command: program not executable
+clang-cl.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: D:/LLVM/msbuild-bin/cl.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+clang-cl.exe: error: unable to execute command: program not executable
+clang-cl.exe: error: linker command failed with exit code 1 (use -v to see invocation)
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: E:/Algo/test/CMakeFiles/CMakeTmp
+
+Run Build Command:"nmake" "/NOLOGO" "cmTC_07d3e\fast"
+
+Generator: execution of make failed. Make command was: "nmake" "/NOLOGO" "cmTC_07d3e\fast"
+
+
