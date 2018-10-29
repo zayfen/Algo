@@ -6,7 +6,10 @@ CMakeFiles/
 cmake_install.cmake
 algo_test
 .cquery_cached_index/
-*.mpack
+**/*.mpack
+
+
+.ccls-cache/
 CMakeCache.txt
 CMakeFiles
 CMakeScripts
