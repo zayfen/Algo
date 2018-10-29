@@ -3,6 +3,9 @@
 
 CMakeFiles/algo_test.dir/search/test_search.cpp.o
  ../src/search/binary_search.hpp
+ ../src/search/exponential_search.hpp
+ ../src/search/fibonacci_search.hpp
+ ../src/search/interpolation_search.hpp
  ../src/search/jump_search.hpp
  ../src/search/linear_search.hpp
  /home/zayafa/workspace/Algo/test/search/test_search.cpp

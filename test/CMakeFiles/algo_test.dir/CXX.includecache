@@ -8,10 +8,30 @@
 
 ../src/search/binary_search.hpp
 
+../src/search/exponential_search.hpp
+vector
+-
+algorithm
+-
+
+../src/search/fibonacci_search.hpp
+vector
+-
+algorithm
+-
+iostream
+-
+
+../src/search/interpolation_search.hpp
+vector
+-
+
 ../src/search/jump_search.hpp
 cmath
 -
 algorithm
+-
+vector
 -
 
 ../src/search/linear_search.hpp
@@ -29,6 +49,12 @@ binary_search.hpp
 /home/zayafa/workspace/Algo/test/search/binary_search.hpp
 jump_search.hpp
 /home/zayafa/workspace/Algo/test/search/jump_search.hpp
+fibonacci_search.hpp
+/home/zayafa/workspace/Algo/test/search/fibonacci_search.hpp
+exponential_search.hpp
+/home/zayafa/workspace/Algo/test/search/exponential_search.hpp
+interpolation_search.hpp
+/home/zayafa/workspace/Algo/test/search/interpolation_search.hpp
 
 /home/zayafa/workspace/Algo/thirdparty/catch.hpp
 TargetConditionals.h

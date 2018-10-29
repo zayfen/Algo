@@ -7,6 +7,9 @@
 #include "linear_search.hpp"
 #include "binary_search.hpp"
 #include "jump_search.hpp"
+#include "fibonacci_search.hpp"
+#include "exponential_search.hpp"
+#include "interpolation_search.hpp"
 
 
 /**
