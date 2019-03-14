@@ -1,1 +1,0 @@
-/usr/bin/c++    -rdynamic CMakeFiles/max_heap.dir/heap/max_heap.cpp.o  -o max_heap 

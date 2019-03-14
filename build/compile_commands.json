@@ -1,7 +1,0 @@
-[
-{
-  "directory": "/home/zayafa/workspace/Algo/build",
-  "command": "/usr/bin/c++   -I/home/zayafa/workspace/Algo/src/./_utils -I/home/zayafa/workspace/Algo/src/./_common_models    -o CMakeFiles/max_heap.dir/heap/max_heap.cpp.o -c /home/zayafa/workspace/Algo/src/heap/max_heap.cpp",
-  "file": "/home/zayafa/workspace/Algo/src/heap/max_heap.cpp"
-}
-]
